@@ -26,8 +26,9 @@ in getting there, and who benefits from the result. Written for a non-specialist
 Notes:
 - The <details> block is optional — drop it if you have no description yet.
   Keep the blank lines inside it and the markdown="1" attribute.
-- The home page counts entries by counting "### " in this file, and subtracts one
-  for the example heading above. Keep exactly one example heading in this comment.
+- The home page counts entries by counting the level-3 headings in this file, and
+  subtracts one for the example heading above. Keep exactly one example heading in
+  this comment, and do not write a level-3 heading marker inline anywhere else.
 ==============================================================================
 -->
 

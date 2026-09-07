@@ -28,8 +28,9 @@ Notes:
 - The <details> block is optional — drop it entirely if you have no summary yet.
   Keep the blank lines inside it and the markdown="1" attribute, or the text
   inside will not render properly.
-- The home page counts entries by counting "### " in this file, and subtracts one
-  for the example heading above. Keep exactly one example heading in this comment.
+- The home page counts entries by counting the level-3 headings in this file, and
+  subtracts one for the example heading above. Keep exactly one example heading in
+  this comment, and do not write a level-3 heading marker inline anywhere else.
 ==============================================================================
 -->
 
