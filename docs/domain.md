@@ -1,6 +1,6 @@
 ---
 title: Urban Energy Systems
-nav_order: 4
+nav_order: 3
 ---
 
 # Urban Energy Systems
@@ -46,14 +46,14 @@ was run as a living lab experiment rather than a simulation study alone. Real bu
 in ways that expose what a model got wrong.
 
 NEST also serves as a Leader Pilot in
-[ENERGENIUS]({{ '/docs/projects/' | relative_url }}), the site that trials the most advanced
+[ENERGENIUS]({{ '/docs/projects-and-tools/' | relative_url }}), the site that trials the most advanced
 tooling before it is adapted for wider deployment.
 
 ## Who we work with
 
 **Federal and national.** The Swiss Federal Office of Energy (SFOE) and Innosuisse fund work
-represented on this site, including [Digicities]({{ '/docs/projects/' | relative_url }}) and the
-DecarbAI project behind [DecarbAI Demands]({{ '/docs/tools/' | relative_url }}).
+represented on this site, including [Digicities]({{ '/docs/projects-and-tools/' | relative_url }}) and the
+DecarbAI project behind [DecarbAI Demands]({{ '/docs/projects-and-tools/' | relative_url }}).
 
 **Cities, cantons, and utilities.** Municipal and utility energy planning is the setting these
 tools are built for — CESAR-P and ehubX exist to answer questions about a specific district,

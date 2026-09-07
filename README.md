@@ -22,10 +22,13 @@ from the HTML comment at the top, paste it below the last entry, and fill it in.
 The template comment stays in the file and does not appear on the website.
 
 - **Papers**: [docs/papers.md](docs/papers.md) — title, year, authors (first three then
-  *et al.*), the AI angle, and a short summary of method / usage / relation to AI.
-- **Projects**: [docs/projects.md](docs/projects.md)
-- **Tools**: [docs/tools.md](docs/tools.md)
-- **Landing page**: [index.md](index.md) — intro, spin-offs, contacts.
+  *et al.*), the AI method, and a short summary of method / usage / relation to AI. Entries go
+  under one of the five sub-field sections; the index at the top of the page builds itself.
+- **Projects and tools**: [docs/projects-and-tools.md](docs/projects-and-tools.md) — start the
+  metadata line with **Project** or **Tool**.
+- **Urban energy systems**: [docs/domain.md](docs/domain.md) — domain context and partners.
+- **Landing page**: [index.md](index.md) — intro and contacts. The counts on it are computed
+  from the pages above, so they update themselves.
 
 Entries are written newest-first. Delete the `_No entries yet._` line once a page has
 real content.
