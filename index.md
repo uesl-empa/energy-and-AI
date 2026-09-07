@@ -5,8 +5,8 @@ title: Home
 
 # Energy and AI
 
-A summary of projects, papers, and tools related to **Energy and AI**, maintained by the
-[Urban Energy Systems Lab (UESL)](https://www.empa.ch/web/s313) at Empa.
+How the [Urban Energy Systems Lab (UESL)](https://www.empa.ch/web/s313) at Empa uses artificial
+intelligence in energy research — projects, papers, and tools explained for a general audience.
 
 - [Documentation]({{ '/docs/' | relative_url }}) — projects, papers, and tools
 - [UESL lab homepage](https://www.empa.ch/web/s313)
@@ -15,6 +15,14 @@ A summary of projects, papers, and tools related to **Energy and AI**, maintaine
 ## About
 
 _Add a short description of the Energy and AI focus area here._
+
+## Spin-Offs & Commercial Applications
+
+**[viboo AG](https://viboo.io)**
+Physics-informed machine learning algorithms for predictive HVAC control.
+
+**[Sympheny AG](https://sympheny.com)**
+Spatial data analytics and energy scenario optimisation platform.
 
 ## Contact
 
