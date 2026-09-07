@@ -37,16 +37,20 @@ Notes:
 # Papers
 
 Publications from the lab involving artificial intelligence and machine learning, grouped by
-what the AI is doing. Click **More** under an entry to read what the paper does.
+what the AI is doing.
 
-{%- comment -%}
-The marker below is assembled rather than written literally: page.content is the
-raw source of this file, so a literal heading marker here would be split on as if
-it were a real section heading.
-{%- endcomment -%}
+{% comment %}
+The marker below is assembled rather than written literally: page.content is the raw
+source of this file, so a literal heading marker here would be split on as if it were
+a real section heading. Do not use whitespace-stripping tags ({%- -%}) in this block:
+they swallow the blank line that separates the list below from the paragraph above,
+and without it the list is rendered as inline text instead of a list.
+{% endcomment %}
 {% capture newline %}
-{% endcapture %}{%- assign h2marker = newline | append: '## ' -%}
-{%- assign sections = page.content | split: h2marker -%}
+{% endcapture %}
+{% assign h2marker = newline | append: '## ' %}
+{% assign sections = page.content | split: h2marker %}
+
 <ul class="subfield-toc">
 {%- for section in sections offset: 1 -%}
   {%- assign heading = section | split: newline | first | strip -%}
