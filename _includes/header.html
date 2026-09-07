@@ -1,6 +1,12 @@
 <header class="site-header">
   <div class="wrap">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      {% assign logo = site.static_files | where: "relative_path", "/assets/images/empa_logo.png" | first %}
+      {% if logo %}
+        <img class="site-logo" src="{{ '/assets/images/empa_logo.png' | relative_url }}" alt="Empa">
+      {% endif %}
+      <span class="site-title">{{ site.title }}</span>
+    </a>
     <nav class="site-nav">
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/docs/' | relative_url }}">Docs</a>
