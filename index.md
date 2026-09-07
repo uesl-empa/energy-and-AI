@@ -24,8 +24,23 @@ runs through our work on buildings, districts, and grids.
 - **[{{ work_count }} projects and tools]({{ '/docs/projects-and-tools/' | relative_url }})**
   built around AI methods, including software we release openly
 
-We are open to collaboration in this direction — joint research, industry partnerships, and
-student projects. If something here is relevant to your work, please get in touch.
+## What we can provide
+
+**Knowledge, research capacity, and experience.** Years of published, peer-reviewed work
+applying AI across forecasting, physics-consistent modelling, control, and optimisation in
+real energy systems — not a one-off pilot.
+
+**Network.** Established links to federal bodies, cities and utilities, and academic partners
+across Switzerland and Europe, built through the projects on this site.
+
+**Data, platforms, and tools.** Open simulation and optimisation platforms, demonstrator
+buildings, and AI-ready data frameworks already running in the urban energy systems domain —
+see [Urban Energy Systems]({{ '/docs/domain/' | relative_url }}) for what we maintain and who
+we work with.
+
+**Openness to joint development.** We are open to collaboration in this direction — joint
+research, industry partnerships, and student projects applying AI to your energy questions.
+If something here is relevant to your work, please get in touch.
 
 ## Contact
 
