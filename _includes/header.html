@@ -1,12 +1,14 @@
 <header class="site-header">
   <div class="wrap">
-    <a class="site-brand" href="{{ '/' | relative_url }}">
+    <div class="site-left">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/docs/' | relative_url }}">Docs</a>
+      </nav>
+    </div>
+    <a class="site-logo-link" href="{{ '/' | relative_url }}">
       <img class="site-logo" src="{{ '/assets/images/empa_logo.png' | relative_url }}" alt="Empa">
-      <span class="site-title">{{ site.title }}</span>
     </a>
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/docs/' | relative_url }}">Docs</a>
-    </nav>
   </div>
 </header>
