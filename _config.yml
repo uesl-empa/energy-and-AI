@@ -6,6 +6,7 @@ description: >-
 baseurl: "/energy-and-AI"
 url: "https://uesl-empa.github.io"
 
+permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
