@@ -39,6 +39,21 @@ Notes:
 Publications from the lab involving artificial intelligence and machine learning, grouped by
 what the AI is doing. Click **More** under an entry to read what the paper does.
 
+{% capture newline %}
+{% endcapture %}{% capture h2marker %}
+## {% endcapture %}
+{%- assign sections = page.content | split: h2marker -%}
+<ul class="subfield-toc">
+{%- for section in sections offset: 1 -%}
+  {%- assign heading = section | split: newline | first | strip -%}
+  {%- assign entries = section | split: '### ' | size | minus: 1 -%}
+  <li>
+    <a href="#{{ heading | slugify }}">{{ heading }}</a>
+    <span>{{ entries }}</span>
+  </li>
+{%- endfor -%}
+</ul>
+
 ## Forecasting and prediction
 
 Learning patterns from historical data to predict demand, emissions, comfort, and available
