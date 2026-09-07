@@ -24,8 +24,8 @@ The template comment stays in the file and does not appear on the website.
 - **Research papers**: [docs/papers.md](docs/papers.md) — title, year, authors (first three then
   *et al.*), the AI method, and a short summary of method / usage / relation to AI. Entries go
   under one of the five sub-field sections; the index at the top of the page builds itself.
-- **Projects and tools**: [docs/projects-and-tools.md](docs/projects-and-tools.md) — start the
-  metadata line with **Project** or **Tool**.
+- **Projects**: [docs/projects.md](docs/projects.md) — put each entry under Lead projects
+  (UESL leads it) or Contributor projects (UESL is one of the partners).
 - **Urban energy systems**: [docs/domain.md](docs/domain.md) — domain context and partners.
 - **Landing page**: [index.md](index.md) — intro and contacts. The counts on it are computed
   from the pages above, so they update themselves.

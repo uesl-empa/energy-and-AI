@@ -6,6 +6,7 @@
   --muted: #6b7280;
   --accent: #e2001a; // Empa corporate red
   --border: #e5e7eb;
+  --surface: #f7f7f8;
 }
 
 * { box-sizing: border-box; }
@@ -201,4 +202,213 @@ code {
 @media (max-width: 700px) {
   .docs-layout { flex-direction: column; }
   .docs-sidebar { flex: none; }
+}
+
+/* ---- landing page ---- */
+
+.hero {
+  text-align: center;
+  padding: 1rem 0 2.5rem;
+}
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1.15;
+  margin: 0 0 1rem;
+}
+.hero-subtitle {
+  max-width: 640px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.cta-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.75rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btn:hover { text-decoration: none; }
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-primary:hover { opacity: 0.9; }
+.btn-secondary {
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid var(--border);
+}
+.btn-secondary:hover { border-color: var(--accent); }
+
+.section {
+  padding: 3rem 0;
+  border-top: 1px solid var(--border);
+}
+.section h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1.75rem;
+  text-align: center;
+}
+.section-lead {
+  text-align: center;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+.card {
+  padding: 1.25rem;
+  background: var(--surface);
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1rem;
+}
+.card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+.why-item h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+.why-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.callout {
+  margin: 0;
+  padding: 1.5rem 1.75rem;
+  border: none;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  border-radius: 0 8px 8px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+.stat-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.stats-caption {
+  text-align: center;
+  color: var(--muted);
+  margin: 1rem 0 2rem;
+}
+
+.research-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.research-links a {
+  font-weight: 600;
+}
+.text-link {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.collab-list {
+  columns: 2;
+  column-gap: 2rem;
+  padding-left: 1.2rem;
+  line-height: 1.9;
+}
+
+.closing-cta {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  margin: 0 -1.5rem;
+  background: var(--fg);
+  color: #fff;
+  border-radius: 12px;
+}
+.closing-cta h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+}
+.closing-cta p {
+  margin: 0 auto 1.5rem;
+  max-width: 480px;
+  opacity: 0.85;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.contact-card {
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.contact-card h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+}
+.contact-card p {
+  margin: 0 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+  .why-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
+  .collab-list { columns: 1; }
+}
+@media (max-width: 480px) {
+  .card-grid { grid-template-columns: 1fr; }
 }
