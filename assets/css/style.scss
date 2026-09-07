@@ -109,6 +109,15 @@ main.wrap {
   flex: 1;
   min-width: 0;
 }
+.docs-content h3 {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.docs-content h3 + p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
 
 code, pre {
   font-family: "SFMono-Regular", Consolas, Menlo, monospace;
