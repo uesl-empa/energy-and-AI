@@ -35,6 +35,12 @@ Notes:
 
 Research projects producing the data infrastructure and methods that our AI work builds on.
 
+## AI-ready data frameworks
+
+Making energy data harmonised, documented, and machine-readable — the precondition for applying
+learning-based methods to a real energy system. See also
+[MOTEL]({{ '/docs/tools/' | relative_url }}) under tools.
+
 ### Digicities
 
 ERA-Net Smart Energy Systems · Funded by the Swiss Federal Office of Energy (SFOE), the

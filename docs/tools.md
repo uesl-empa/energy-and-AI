@@ -5,7 +5,7 @@ nav_order: 3
 
 <!--
 ==============================================================================
-TEMPLATE — copy the block below for each new tool and fill it in.
+TEMPLATE — copy the block below into the right section and fill it in.
 
 ### Tool name
 
@@ -32,7 +32,37 @@ Notes:
 
 # Tools
 
-Software, models, and datasets released by the lab.
+Software, models, and datasets released by the lab and its spin-offs.
+
+## AI models and applications
+
+Tools where a trained model does the work.
+
+### DecarbAI Demands
+
+Python · Apache 2.0 · [urban-sympheny](https://github.com/urban-sympheny)
+[Repository](https://github.com/urban-sympheny/decarbai-demands)
+
+**AI angle:** Per-city, per-building-type XGBoost ensembles with PCA feature reduction,
+replacing a full building simulation with a model that answers immediately.
+
+<details markdown="1">
+<summary>More</summary>
+
+Producing an hourly energy demand profile for a building normally means setting up and running
+a simulation. DecarbAI Demands predicts the full year — all 8760 hours of heating, cooling,
+electricity, and domestic hot water demand — for Swiss buildings directly from 17 building
+characteristics such as dimensions, construction year, window-to-wall ratios, and insulation
+values. It runs as an interactive Dash dashboard. Predictions are most reliable when the inputs
+fall inside the ranges the models were trained on.
+
+</details>
+
+## AI-ready data frameworks
+
+Infrastructure that makes energy data usable by machine-learning methods in the first place —
+harmonised, documented, and machine-readable. See also
+[Digicities]({{ '/docs/projects/' | relative_url }}) under projects.
 
 ### MOTEL — Methodology for Open Technology Data in Energy Models
 
