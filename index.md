@@ -14,6 +14,10 @@ one for the example heading inside each file's template comment.
 {%- assign paper_count = papers_page.content | split: '### ' | size | minus: 2 -%}
 {%- assign project_count = projects_page.content | split: '### ' | size | minus: 2 -%}
 {%- assign tool_count = tools_page.content | split: '### ' | size | minus: 2 -%}
+{%- if project_count == 1 -%}{%- assign project_noun = 'project' -%}
+{%- else -%}{%- assign project_noun = 'projects' -%}{%- endif -%}
+{%- if tool_count == 1 -%}{%- assign tool_noun = 'tool' -%}
+{%- else -%}{%- assign tool_noun = 'tools' -%}{%- endif -%}
 
 # AI & Urban Energy Systems
 
@@ -23,9 +27,9 @@ runs through our work on buildings, districts, and grids.
 
 - **[{{ paper_count }} papers]({{ '/docs/papers/' | relative_url }})** published since 2023,
   applying AI and machine learning to energy questions
-- **[{% if project_count > 0 %}{{ project_count }} projects{% else %}Projects{% endif %}]({{ '/docs/projects/' | relative_url }})**
+- **[{% if project_count > 0 %}{{ project_count }} {{ project_noun }}{% else %}Projects{% endif %}]({{ '/docs/projects/' | relative_url }})**
   built around AI methods
-- **[{% if tool_count > 0 %}{{ tool_count }} tools{% else %}Tools{% endif %}]({{ '/docs/tools/' | relative_url }})**
+- **[{% if tool_count > 0 %}{{ tool_count }} {{ tool_noun }}{% else %}Tools{% endif %}]({{ '/docs/tools/' | relative_url }})**
   we release as software, models, and datasets
 
 We are open to collaboration in this direction — joint research, industry partnerships, and
