@@ -45,6 +45,10 @@ transfer-learning work on this site, for instance, uses measurements from the UM
 was run as a living lab experiment rather than a simulation study alone. Real buildings behave
 in ways that expose what a model got wrong.
 
+NEST also serves as a Leader Pilot in
+[ENERGENIUS]({{ '/docs/projects/' | relative_url }}), the site that trials the most advanced
+tooling before it is adapted for wider deployment.
+
 ## Who we work with
 
 **Federal and national.** The Swiss Federal Office of Energy (SFOE) and Innosuisse fund work
@@ -60,7 +64,8 @@ run into.
 ETH Board's Open Research Data Program. Much of the control and optimisation work on this site
 is joint with academic groups in Switzerland and abroad.
 
-**International.** Digicities runs under **ERA-Net Smart Energy Systems** with funding from
+**International.** ENERGENIUS runs under **Horizon Europe** across 17 partners and 10
+demonstrator sites. Digicities runs under **ERA-Net Smart Energy Systems** with funding from
 SFOE, the Austrian Research Promotion Agency (FFG), and the EU Horizon 2020 programme. DecarbAI
 is a **UK–Switzerland** bilateral collaboration.
 

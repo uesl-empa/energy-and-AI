@@ -36,6 +36,34 @@ Notes:
 
 Research projects producing the data infrastructure and methods that our AI work builds on.
 
+## Digital twins and AI-driven energy services
+
+Bringing AI to the people who actually make energy decisions, rather than leaving it in expert
+tooling.
+
+### ENERGENIUS
+
+Horizon Europe · 17 partners across 10 demonstrator sites in Europe · Empa contributes the
+**NEST** demonstrator as a Leader Pilot
+[Project site](https://energenius-project.eu/)
+
+**AI method:** Digital twins and AI-driven energy analytics, delivered to end users through
+gamified learning and an AI advisor rather than as specialist software.
+
+<details markdown="1">
+<summary>More</summary>
+
+ENERGENIUS works on the gap between knowing how a building performs and actually doing
+something about it, combining gamified learning with AI and digital twin models to make
+energy saving accessible and human-centred. Our contribution is the digital twins, the
+AI-driven energy analytics, and the interoperable data frameworks tested within the project,
+alongside NEST as a Leader Pilot — the sites that set the standard with the most advanced
+tooling before it is adapted for wider use. The collaboration gives us insight into how
+digitalisation can turn energy performance data into strategies that measurably cut
+consumption.
+
+</details>
+
 ## AI-ready data frameworks
 
 Making energy data harmonised, documented, and machine-readable — the precondition for applying
