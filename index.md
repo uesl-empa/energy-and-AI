@@ -34,6 +34,3 @@ student projects. If something here is relevant to your work, please get in touc
 
 **[Robin Mutschler](https://www.empa.ch/web/muro)** — Leader of Marco-Energy Systems Group
 [robin.mutschler@empa.ch](mailto:robin.mutschler@empa.ch)
-
-**[Barton Yi-Chung Chen](https://www.empa.ch/web/chyi)** — Scientist for Energy Systems Modelling
-[yi-chung.chen@empa.ch](mailto:yi-chung.chen@empa.ch)
