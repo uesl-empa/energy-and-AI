@@ -10,21 +10,15 @@ What the lab is doing with AI in energy research, grouped by type.
 - [Papers]({{ '/docs/papers/' | relative_url }}) — publications applying AI and machine learning
 - [Projects]({{ '/docs/projects/' | relative_url }}) — research projects behind the methods
 - [Tools]({{ '/docs/tools/' | relative_url }}) — software, models, and datasets we release
+- [Urban Energy Systems]({{ '/docs/domain/' | relative_url }}) — the domain this work sits in,
+  the platforms we maintain, and who we work with
 
-## Where AI fits in urban energy systems
+## Where AI fits
 
 The lab's core work is modelling energy at the scale of buildings, districts, and cities, and
-most of that rests on physics and optimisation rather than machine learning. Two open platforms
-we build and maintain give the picture:
-
-- **[CESAR-P](https://github.com/uesl-empa/cesar-p-core)** (Combined Energy Simulation And
-  Retrofitting) calculates energy demand bottom-up for a district or larger site, running
-  EnergyPlus building simulations to estimate heating, cooling, and hot water demand along with
-  the costs, emissions, and effect of retrofit measures. With clustering and upscaling it
-  reaches national scale.
-- **[ehubX](https://github.com/uesl-empa/ehubx)** formulates energy system design and operation
-  as mixed-integer linear programming problems — deciding what technologies to install and how
-  to run them.
+most of that rests on physics and optimisation rather than machine learning — simulation
+platforms like CESAR-P and optimisation frameworks like ehubX, described on the
+[Urban Energy Systems]({{ '/docs/domain/' | relative_url }}) page.
 
 Neither is an AI tool. But they define where AI becomes useful, and most of our machine-learning
 work sits at one of these five joints:
@@ -46,11 +40,3 @@ Reinforcement learning and learned controllers close that loop.
 **Data foundations.** None of the above works on data that is scattered, undocumented, or
 locked away. AI-ready data frameworks — harmonised, machine-readable, and traceable — are a
 prerequisite rather than an afterthought, and building them is a research problem in itself.
-
-## Who the results are for
-
-This work is aimed at the people who actually have to make these decisions in Switzerland and
-beyond: cities and cantons planning their energy transition, federal bodies such as the Swiss
-Federal Office of Energy, energy suppliers and grid operators, and building owners weighing
-retrofits. That audience shapes the research — it is why uncertainty quantification, physical
-consistency, and computational speed keep recurring as themes rather than accuracy alone.
