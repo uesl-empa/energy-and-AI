@@ -3,53 +3,36 @@ layout: default
 title: Home
 ---
 
-{%- assign papers_page = site.pages | where: "title", "Papers" | first -%}
 {%- comment -%}
-Counts the "### " entry headings in docs/papers.md. Subtracts 2: one because
-splitting on N occurrences yields N+1 parts, one for the example heading inside
-that file's template comment. If you change the template comment, check this.
+Counts the "### " entry headings in each docs page so these numbers cannot go
+stale. Subtracts 2: one because splitting on N occurrences yields N+1 parts,
+one for the example heading inside each file's template comment.
 {%- endcomment -%}
+{%- assign papers_page = site.pages | where: "title", "Papers" | first -%}
+{%- assign projects_page = site.pages | where: "title", "Projects" | first -%}
+{%- assign tools_page = site.pages | where: "title", "Tools" | first -%}
 {%- assign paper_count = papers_page.content | split: '### ' | size | minus: 2 -%}
+{%- assign project_count = projects_page.content | split: '### ' | size | minus: 2 -%}
+{%- assign tool_count = tools_page.content | split: '### ' | size | minus: 2 -%}
 
 # AI & Urban Energy Systems
 
-Artificial intelligence is changing how energy systems are designed, forecast, and operated —
-turning models that once took hours to run into ones that answer in seconds, and letting
-controllers learn from a building instead of being hand-tuned for it.
+Artificial intelligence is changing how energy systems are designed, forecast, and operated.
+At the **[Urban Energy Systems Laboratory (UESL)](https://www.empa.ch/web/s313)** at Empa it
+runs through our work on buildings, districts, and grids — and two spin-off companies have
+taken that research to market.
 
-At the **[Urban Energy Systems Laboratory (UESL)](https://www.empa.ch/web/s313)** at Empa, this
-is not a side interest. Machine learning runs through our work on buildings, districts, and
-grids: **{{ paper_count }} of our publications** apply AI methods to energy questions, and two
-spin-off companies have taken that research to market.
+- **[{{ paper_count }} papers]({{ '/docs/papers/' | relative_url }})** applying AI and machine
+  learning to energy questions
+- **[{% if project_count > 0 %}{{ project_count }} projects{% else %}Projects{% endif %}]({{ '/docs/projects/' | relative_url }})**
+  built around AI methods
+- **[{% if tool_count > 0 %}{{ tool_count }} tools{% else %}Tools{% endif %}]({{ '/docs/tools/' | relative_url }})**
+  we release as software, models, and datasets
 
-[Browse the publications →]({{ '/docs/papers/' | relative_url }})
+We are open to collaboration in this direction — joint research, industry partnerships, and
+student projects. If something here is relevant to your work, please get in touch.
 
-## Where we apply AI
-
-**Forecasting.** Predicting electricity demand, and the flexibility that EV charging offers the
-grid — including transformer models that use timetables and planned occupancy to see ahead
-rather than only backwards.
-
-**Physics-consistent learning.** Neural networks whose structure guarantees they obey physical
-laws, so a model cannot produce a confident but impossible answer when it meets conditions it
-was never trained on.
-
-**Control and optimisation.** Deep reinforcement learning for price-responsive heating, and
-Bayesian optimisation that tunes controllers while they run without breaching operating limits.
-
-**System identification.** Machine-learning tooling applied to building mathematical models of
-real systems from measured data, with stability guaranteed by construction.
-
-**Uncertainty quantification.** Predicting ranges rather than single numbers, so that weather,
-occupant behaviour, and long-term investment risk are represented honestly.
-
-## Working with us
-
-We are open to collaboration in this direction — joint research projects, industry partnerships,
-student projects, and applications of these methods to new energy domains. If something here is
-relevant to your work, please get in touch.
-
-## Spin-offs and commercial applications
+## Spin-offs
 
 **[viboo AG](https://viboo.io)**
 Physics-informed machine learning algorithms for predictive HVAC control.
