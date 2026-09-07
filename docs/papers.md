@@ -13,7 +13,7 @@ Entries are newest-first within each section.
 **2024** · Surname A., Surname B., Surname C. et al. · *Journal or Conference*
 [10.xxxx/yyyyy](https://doi.org/10.xxxx/yyyyy)
 
-**AI angle:** one line — what kind of AI/ML is used and what it does here.
+**AI method:** one line — what kind of AI/ML is used and what it does here.
 
 <details markdown="1">
 <summary>More</summary>
@@ -49,7 +49,7 @@ flexibility.
 **2026** · Theiler R., Von Krannichfeldt L., Sansavini G. et al. · *Energy Reports*
 [10.1016/j.egyr.2026.109223](https://doi.org/10.1016/j.egyr.2026.109223)
 
-**AI angle:** Transformer models — the architecture behind modern language models — adapted
+**AI method:** Transformer models — the architecture behind modern language models — adapted
 to energy load forecasting.
 
 <details markdown="1">
@@ -69,7 +69,7 @@ office occupancy, by 56.3%.
 **2025** · Bellizio F., Dijkstra B., Fertig A. et al. · *Sustainable Energy, Grids and Networks*
 [10.1016/j.segan.2025.101657](https://doi.org/10.1016/j.segan.2025.101657)
 
-**AI angle:** Machine learning to predict how much scheduling flexibility public EV charging
+**AI method:** Machine learning to predict how much scheduling flexibility public EV charging
 points offer the grid.
 
 ### Data-driven personalized thermal comfort model for office workers in Switzerland
@@ -77,14 +77,14 @@ points offer the grid.
 **2025** · Chatterjee A., Heer P. · *Journal of Physics: Conference Series*
 [10.1088/1742-6596/3140/11/112008](https://doi.org/10.1088/1742-6596/3140/11/112008)
 
-**AI angle:** Learns individual comfort preferences from data rather than applying a single
+**AI method:** Learns individual comfort preferences from data rather than applying a single
 standard comfort model to everyone.
 
 ### Non-Intrusive Load Monitoring (NILM) with very low-frequency data from smart meters in Switzerland
 
 **2025** · Chatterjee A., Heer P.
 
-**AI angle:** Disaggregating total household consumption into individual appliances from
+**AI method:** Disaggregating total household consumption into individual appliances from
 smart meter data alone.
 
 ### Machine learning approaches for predictions of CO₂ emissions in the building sector
@@ -92,7 +92,7 @@ smart meter data alone.
 **2024** · Giannelos S., Bellizio F., Strbac G. et al. · *Electric Power Systems Research*
 [10.1016/j.epsr.2024.110735](https://doi.org/10.1016/j.epsr.2024.110735)
 
-**AI angle:** Machine learning models for predicting CO₂ emissions from buildings.
+**AI method:** Machine learning models for predicting CO₂ emissions from buildings.
 
 ## Physics-consistent and hybrid modelling
 
@@ -104,7 +104,7 @@ physically impossible answers.
 **2026** · Von Krannichfeldt L., Orehounig K., Fink O. · *Energy and Buildings*
 [10.1016/j.enbuild.2025.116838](https://doi.org/10.1016/j.enbuild.2025.116838)
 
-**AI angle:** Systematic comparison of five ways to combine physics-based building models
+**AI method:** Systematic comparison of five ways to combine physics-based building models
 with neural networks, under uncertainty.
 
 <details markdown="1">
@@ -125,7 +125,7 @@ during training.
 **2025** · Montazeri M., Remlinger C., Bejar Haro B. et al. · *Applied Energy*
 [10.1016/j.apenergy.2025.125770](https://doi.org/10.1016/j.apenergy.2025.125770)
 
-**AI angle:** Building thermal control learned entirely from data, with model structure
+**AI method:** Building thermal control learned entirely from data, with model structure
 constrained so its predictions stay physically consistent.
 
 ### Combining physics-based and data-driven modeling for building energy systems
@@ -133,7 +133,7 @@ constrained so its predictions stay physically consistent.
 **2025** · Von Krannichfeldt L., Orehounig K., Fink O. · *Applied Energy*
 [10.1016/j.apenergy.2025.125853](https://doi.org/10.1016/j.apenergy.2025.125853)
 
-**AI angle:** Hybrid modelling that pairs physics-based building models with learned
+**AI method:** Hybrid modelling that pairs physics-based building models with learned
 components.
 
 ### Towards scalable physically consistent neural networks: an application to data-driven multi-zone thermal building models
@@ -141,7 +141,7 @@ components.
 **2023** · Di Natale L., Svetozarevic B., Heer P. et al. · *Applied Energy*
 [10.1016/j.apenergy.2023.121071](https://doi.org/10.1016/j.apenergy.2023.121071)
 
-**AI angle:** Physically Consistent Neural Networks (PCNNs) — neural networks whose structure
+**AI method:** Physically Consistent Neural Networks (PCNNs) — neural networks whose structure
 mathematically guarantees they obey physical laws, rather than merely fitting the data.
 
 <details markdown="1">
@@ -162,7 +162,7 @@ and improve on other physically consistent methods by 17–35%.
 **2023** · Zakwan M., Di Natale L., Svetozarevic B. et al. · *22nd IFAC World Congress*
 [10.1016/j.ifacol.2023.10.079](https://doi.org/10.1016/j.ifacol.2023.10.079)
 
-**AI angle:** Neural ODEs constrained by port-Hamiltonian structure so that learned models
+**AI method:** Neural ODEs constrained by port-Hamiltonian structure so that learned models
 cannot violate the laws of thermodynamics.
 
 <details markdown="1">
@@ -181,7 +181,7 @@ thermodynamics and on a gas-piston system.
 **2023** · Xie H., Bellizio F., Cremer J. L. et al. · *IEEE Belgrade PowerTech 2023*
 [10.1109/PowerTech55446.2023.10202688](https://doi.org/10.1109/PowerTech55446.2023.10202688)
 
-**AI angle:** Selected Physics Informed Neural Networks (SPINNs) — a step beyond standard
+**AI method:** Selected Physics Informed Neural Networks (SPINNs) — a step beyond standard
 physics-informed networks, feeding only chosen parts of the physical model into training.
 
 <details markdown="1">
@@ -206,7 +206,7 @@ hand-designed for it.
 **2025** · Mokhtari R., Montazeri M., Cai H. et al. · *Energy*
 [10.1016/j.energy.2025.138517](https://doi.org/10.1016/j.energy.2025.138517)
 
-**AI angle:** Deep reinforcement learning for heating control that responds to electricity
+**AI method:** Deep reinforcement learning for heating control that responds to electricity
 prices, tested both in simulation and in a real occupied building.
 
 ### Prescribing optimal health-aware operation for urban air mobility with deep reinforcement learning
@@ -214,7 +214,7 @@ prices, tested both in simulation and in a real occupied building.
 **2025** · Montazeri M., Kulkarni C. S., Fink O. · *Reliability Engineering & System Safety*
 [10.1016/j.ress.2025.110897](https://doi.org/10.1016/j.ress.2025.110897)
 
-**AI angle:** Deep reinforcement learning for operating urban air mobility vehicles in a way
+**AI method:** Deep reinforcement learning for operating urban air mobility vehicles in a way
 that accounts for component health and degradation.
 
 ### Transfer learning for thermal building modeling
@@ -222,7 +222,7 @@ that accounts for component health and degradation.
 **2025** · Varathan A., Remlinger C., Montazeri M. et al. · *IEEE Conference on Control Technology and Applications (CCTA 2025)*
 [10.1109/CCTA53793.2025.11151506](https://doi.org/10.1109/CCTA53793.2025.11151506)
 
-**AI angle:** Transfer learning — reusing a model trained on one building to model another
+**AI method:** Transfer learning — reusing a model trained on one building to model another
 with far less data.
 
 <details markdown="1">
@@ -242,7 +242,7 @@ several sources can beat it outright.
 **2024** · Yin M., Cai H., Gattiglio A. et al. · *Applied Energy*
 [10.1016/j.apenergy.2023.122101](https://doi.org/10.1016/j.apenergy.2023.122101)
 
-**AI angle:** Predictive control built directly from measured data instead of a hand-built
+**AI method:** Predictive control built directly from measured data instead of a hand-built
 physical model, validated experimentally.
 
 ### Computationally efficient reinforcement learning: targeted exploration leveraging simple rules
@@ -250,7 +250,7 @@ physical model, validated experimentally.
 **2023** · Di Natale L., Svetozarevic B., Heer P. et al. · *IEEE Conference on Decision and Control (CDC 2023)*
 [10.1109/CDC49753.2023.10383956](https://doi.org/10.1109/CDC49753.2023.10383956)
 
-**AI angle:** Makes reinforcement learning cheaper to train by using simple known rules to
+**AI method:** Makes reinforcement learning cheaper to train by using simple known rules to
 steer where the algorithm explores.
 
 ## Optimisation and controller tuning
@@ -263,7 +263,7 @@ breached — largely Bayesian optimisation and learned surrogate models.
 **2025** · Assareh E., Zoghi M., Zare A. et al. · *Results in Engineering*
 [10.1016/j.rineng.2025.104873](https://doi.org/10.1016/j.rineng.2025.104873)
 
-**AI angle:** AI-driven optimisation of geothermal cogeneration system design for zero-energy
+**AI method:** AI-driven optimisation of geothermal cogeneration system design for zero-energy
 buildings.
 
 ### AI-aided surrogate model for prediction of HVAC optimization strategies in future conditions in the face of climate change
@@ -271,7 +271,7 @@ buildings.
 **2025** · Bazazzadeh H., Hoseinzadeh S., Mohammadi M. M. et al. · *Energy Reports*
 [10.1016/j.egyr.2025.01.033](https://doi.org/10.1016/j.egyr.2025.01.033)
 
-**AI angle:** An AI surrogate model — a fast learned stand-in for a slow simulation — used to
+**AI method:** An AI surrogate model — a fast learned stand-in for a slow simulation — used to
 find HVAC optimisation strategies under future climate scenarios.
 
 ### Violation-aware contextual Bayesian optimization for controller performance optimization with unmodeled constraints
@@ -279,7 +279,7 @@ find HVAC optimisation strategies under future climate scenarios.
 **2024** · Xu W., Jones C. N., Svetozarevic B. et al. · *Journal of Process Control*
 [10.1016/j.jprocont.2024.103212](https://doi.org/10.1016/j.jprocont.2024.103212)
 
-**AI angle:** Bayesian optimisation for tuning controllers, designed to limit how often it
+**AI method:** Bayesian optimisation for tuning controllers, designed to limit how often it
 violates constraints it has no model for while searching.
 
 ### Data-driven adaptive building thermal controller tuning with constraints: a primal–dual contextual Bayesian optimization approach
@@ -287,21 +287,21 @@ violates constraints it has no model for while searching.
 **2024** · Xu W., Svetozarevic B., Di Natale L. et al. · *Applied Energy*
 [10.1016/j.apenergy.2023.122493](https://doi.org/10.1016/j.apenergy.2023.122493)
 
-**AI angle:** Contextual Bayesian optimisation that tunes a building thermal controller
+**AI method:** Contextual Bayesian optimisation that tunes a building thermal controller
 automatically while respecting operating constraints.
 
 ### Principled Bayesian optimisation in collaboration with human experts
 
 **2024** · Xu W., Adachi M., Jones C. N. et al. · *NeurIPS 2024*
 
-**AI angle:** Bayesian optimisation that incorporates human expert input into the search,
+**AI method:** Bayesian optimisation that incorporates human expert input into the search,
 with guarantees on the result.
 
 ### Principled preferential Bayesian optimization
 
 **2024** · Xu W., Wang W., Jiang Y. et al. · *International Conference on Machine Learning (ICML 2024), PMLR 235*
 
-**AI angle:** Bayesian optimisation driven by preference comparisons rather than numeric
+**AI method:** Bayesian optimisation driven by preference comparisons rather than numeric
 measurements — useful where "better" can be judged but not measured.
 
 ### Primal-dual contextual Bayesian optimization for control system online optimization with time-average constraints
@@ -309,7 +309,7 @@ measurements — useful where "better" can be judged but not measured.
 **2023** · Xu W., Jiang Y., Svetozarevic B. et al. · *IEEE Conference on Decision and Control (CDC 2023)*
 [10.1109/CDC49753.2023.10383653](https://doi.org/10.1109/CDC49753.2023.10383653)
 
-**AI angle:** Bayesian optimisation that tunes a running control system online when both the
+**AI method:** Bayesian optimisation that tunes a running control system online when both the
 goal and the constraints are unknown functions disturbed by outside conditions.
 
 <details markdown="1">
@@ -327,7 +327,7 @@ methods either perform poorly or breach constraints badly.
 
 **2023** · Xu W., Jiang Y., Svetozarevic B. et al. · *International Conference on Machine Learning (ICML 2023), PMLR 202*
 
-**AI angle:** Optimising expensive-to-evaluate functions under constraints, where each trial
+**AI method:** Optimising expensive-to-evaluate functions under constraints, where each trial
 costs real time or money so the number of trials must be kept small.
 
 ## System identification, planning and grid applications
@@ -340,7 +340,7 @@ fleets, and long-term investment decisions.
 **2026** · Shaltout Y., Upadhyay A., Oudalov A. et al. · *Energy and AI*
 [10.1016/j.egyai.2026.100802](https://doi.org/10.1016/j.egyai.2026.100802)
 
-**AI angle:** Machine learning for uncertainty quantification in energy system capacity
+**AI method:** Machine learning for uncertainty quantification in energy system capacity
 expansion models.
 
 ### A self-assessment framework for evaluating efficiency of data centers
@@ -353,7 +353,7 @@ expansion models.
 **2025** · Di Natale L., Zakwan M., Heer P. et al. · *IEEE Transactions on Control Systems Technology*
 [10.1109/TCST.2024.3477301](https://doi.org/10.1109/TCST.2024.3477301)
 
-**AI angle:** Uses backpropagation — the training algorithm behind neural networks — to fit
+**AI method:** Uses backpropagation — the training algorithm behind neural networks — to fit
 classical control models, with stability guaranteed by construction.
 
 <details markdown="1">
@@ -373,7 +373,7 @@ methods, and is released as an open-source toolbox.
 **2025** · Fathi F., Montazeri M., Naraabi B. et al. · *IEEE Transactions on Vehicular Technology*
 [10.1109/TVT.2025.3547866](https://doi.org/10.1109/TVT.2025.3547866)
 
-**AI angle:** Federated learning — training a shared model across many vehicles without any
+**AI method:** Federated learning — training a shared model across many vehicles without any
 of them handing over their raw data — plus deep neural networks used to design the
 participation incentives.
 
@@ -399,7 +399,7 @@ study demonstrates the approach.
 **2024** · Di Natale L., Zakwan M., Svetozarevic B. et al. · *European Control Conference (ECC 2024)*
 [10.23919/ECC64448.2024.10590843](https://doi.org/10.23919/ECC64448.2024.10590843)
 
-**AI angle:** Recasts a classical control-theory problem, subspace identification, as a
+**AI method:** Recasts a classical control-theory problem, subspace identification, as a
 machine learning problem while guaranteeing model stability.
 
 ### Spatio-temporal data-driven and machine learning-based applications for transmission systems
@@ -407,5 +407,5 @@ machine learning problem while guaranteeing model stability.
 **2024** · Segundo Sevilla F. R., Liu Y., Korba P. et al. · *IEEE Power & Energy Society General Meeting (PESGM 2024)*
 [10.1109/PESGM51994.2024.10688546](https://doi.org/10.1109/PESGM51994.2024.10688546)
 
-**AI angle:** Survey of machine learning applications that exploit the spatial and temporal
+**AI method:** Survey of machine learning applications that exploit the spatial and temporal
 structure of transmission grid measurements.

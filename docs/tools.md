@@ -12,7 +12,7 @@ TEMPLATE — copy the block below into the right section and fill it in.
 **Python** · MIT licence · Maintained by: Name Surname
 [Repository](https://github.com/...) · [Documentation](https://...)
 
-**AI angle:** one line — what the AI/ML component does inside the tool.
+**AI method:** one line — what the AI/ML component does inside the tool.
 
 <details markdown="1">
 <summary>More</summary>
@@ -47,7 +47,7 @@ ML models and methodology: Hassan Bazazzadeh and Georgios Mavromatidis, Urban En
 Laboratory, Empa
 [Repository](https://github.com/urban-sympheny/decarbai-demands)
 
-**AI angle:** Per-city, per-building-type XGBoost ensembles with PCA feature reduction,
+**AI method:** Per-city, per-building-type XGBoost ensembles with PCA feature reduction,
 replacing a full building simulation with a model that answers immediately.
 
 <details markdown="1">
@@ -75,7 +75,7 @@ Open Research Data Program
 [Platform](https://uesl-empa.github.io/motel-platform/) ·
 [Repository](https://github.com/uesl-empa/motel-platform)
 
-**AI angle:** A local large language model (Ollama, qwen3:14b) does the harmonisation work —
+**AI method:** A local large language model (Ollama, qwen3:14b) does the harmonisation work —
 standardising technology names, semantically matching records to existing registries when no
 exact match exists, and filling in missing schema fields.
 

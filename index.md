@@ -19,11 +19,10 @@ one for the example heading inside each file's template comment.
 
 Artificial intelligence is changing how energy systems are designed, forecast, and operated.
 At the **[Urban Energy Systems Laboratory (UESL)](https://www.empa.ch/web/s313)** at Empa it
-runs through our work on buildings, districts, and grids — and two spin-off companies have
-taken that research to market.
+runs through our work on buildings, districts, and grids.
 
-- **[{{ paper_count }} papers]({{ '/docs/papers/' | relative_url }})** applying AI and machine
-  learning to energy questions
+- **[{{ paper_count }} papers]({{ '/docs/papers/' | relative_url }})** published since 2023,
+  applying AI and machine learning to energy questions
 - **[{% if project_count > 0 %}{{ project_count }} projects{% else %}Projects{% endif %}]({{ '/docs/projects/' | relative_url }})**
   built around AI methods
 - **[{% if tool_count > 0 %}{{ tool_count }} tools{% else %}Tools{% endif %}]({{ '/docs/tools/' | relative_url }})**
@@ -31,14 +30,6 @@ taken that research to market.
 
 We are open to collaboration in this direction — joint research, industry partnerships, and
 student projects. If something here is relevant to your work, please get in touch.
-
-## Spin-offs
-
-**[viboo AG](https://viboo.io)**
-Physics-informed machine learning algorithms for predictive HVAC control.
-
-**[Sympheny AG](https://sympheny.com)**
-Spatial data analytics and energy scenario optimisation platform.
 
 ## Contact
 

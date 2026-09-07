@@ -13,7 +13,7 @@ Keep ongoing projects first, then completed ones.
 **2023–2026** · Ongoing · Lead: Name Surname
 Partners / funding: e.g. SFOE, Innosuisse, ETH Zurich
 
-**AI angle:** one line — what kind of AI/ML is involved and what it enables.
+**AI method:** one line — what kind of AI/ML is involved and what it enables.
 
 <details markdown="1">
 <summary>More</summary>
@@ -50,7 +50,7 @@ Austrian Research Promotion Agency (FFG), and the EU Horizon 2020 programme
 [Platform](https://github.com/uesl-empa/digicities-platform) ·
 [Ontology](https://github.com/uesl-empa/digicities-ontology)
 
-**AI angle:** Builds the machine-readable data foundation — semantic models, linked data, and
+**AI method:** Builds the machine-readable data foundation — semantic models, linked data, and
 digital twins — that learning-based methods need before they can be applied to a real city's
 energy system.
 
