@@ -36,8 +36,8 @@ Notes:
 
 # Papers
 
-Publications from the lab involving artificial intelligence and machine learning, grouped by
-what the AI is doing.
+Publications from the lab involving artificial intelligence and machine learning, published
+since 2023, grouped by what the AI is doing.
 
 {% comment %}
 The marker below is assembled rather than written literally: page.content is the raw
