@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="docs-layout">
+  <nav class="docs-sidebar">
+    <strong>Docs</strong>
+    <ul>
+      {% assign docs_pages = site.pages | where_exp: "p", "p.path contains 'docs/'" | sort: "nav_order" %}
+      {% for p in docs_pages %}
+        <li{% if p.url == page.url %} class="active"{% endif %}>
+          <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+  <article class="docs-content">
+    {{ content }}
+  </article>
+</div>

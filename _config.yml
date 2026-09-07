@@ -1,0 +1,28 @@
+title: Energy and AI
+tagline: Urban Energy Systems Lab (UESL)
+description: >-
+  Research at the intersection of urban energy systems and artificial intelligence.
+baseurl: "/energy-and-AI"
+url: "https://uesl-empa.github.io"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - node_modules
+
+defaults:
+  - scope:
+      path: "docs"
+    values:
+      layout: docs
