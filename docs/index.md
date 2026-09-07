@@ -7,7 +7,7 @@ nav_order: 0
 
 What the lab is doing with AI in energy research, grouped by type.
 
-- [Papers]({{ '/docs/papers/' | relative_url }}) — publications applying AI and machine learning
+- [Research papers]({{ '/docs/papers/' | relative_url }}) — publications applying AI and machine learning
 - [Projects and Tools]({{ '/docs/projects-and-tools/' | relative_url }}) — research projects and
   the software, models, and data frameworks they produce
 - [Urban Energy Systems]({{ '/docs/domain/' | relative_url }}) — the domain this work sits in,

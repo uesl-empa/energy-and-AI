@@ -8,7 +8,7 @@ Counts the "### " entry headings in each docs page so these numbers cannot go
 stale. Subtracts 2: one because splitting on N occurrences yields N+1 parts,
 one for the example heading inside each file's template comment.
 {%- endcomment -%}
-{%- assign papers_page = site.pages | where: "title", "Papers" | first -%}
+{%- assign papers_page = site.pages | where: "title", "Research papers" | first -%}
 {%- assign work_page = site.pages | where: "title", "Projects and Tools" | first -%}
 {%- assign paper_count = papers_page.content | split: '### ' | size | minus: 2 -%}
 {%- assign work_count = work_page.content | split: '### ' | size | minus: 2 -%}

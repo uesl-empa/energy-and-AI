@@ -1,5 +1,5 @@
 ---
-title: Papers
+title: Research papers
 nav_order: 1
 ---
 
@@ -34,7 +34,7 @@ Notes:
 ==============================================================================
 -->
 
-# Papers
+# Research papers
 
 Publications from the lab involving artificial intelligence and machine learning, published
 since 2023, grouped by what the AI is doing.

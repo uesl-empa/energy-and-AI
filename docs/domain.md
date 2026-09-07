@@ -73,4 +73,4 @@ is a **UK–Switzerland** bilateral collaboration.
 
 The domain sets the problems; AI addresses specific bottlenecks within them. See the
 [Overview]({{ '/docs/' | relative_url }}) for how the two connect, and
-[Papers]({{ '/docs/papers/' | relative_url }}) for the work itself.
+[Research papers]({{ '/docs/papers/' | relative_url }}) for the work itself.

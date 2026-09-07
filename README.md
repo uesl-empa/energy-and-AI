@@ -21,7 +21,7 @@ Each content page holds a list of entries. Open the file, copy the template bloc
 from the HTML comment at the top, paste it below the last entry, and fill it in.
 The template comment stays in the file and does not appear on the website.
 
-- **Papers**: [docs/papers.md](docs/papers.md) — title, year, authors (first three then
+- **Research papers**: [docs/papers.md](docs/papers.md) — title, year, authors (first three then
   *et al.*), the AI method, and a short summary of method / usage / relation to AI. Entries go
   under one of the five sub-field sections; the index at the top of the page builds itself.
 - **Projects and tools**: [docs/projects-and-tools.md](docs/projects-and-tools.md) — start the
