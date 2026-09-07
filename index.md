@@ -26,8 +26,11 @@ Spatial data analytics and energy scenario optimisation platform.
 
 ## Contact
 
-**[Dr. Georgios Mavromatidis](https://www.empa.ch/web/mag)** — Head of Laboratory
+**[Georgios Mavromatidis](https://www.empa.ch/web/mag)** — Head of Laboratory
 [georgios.mavromatidis@empa.ch](mailto:georgios.mavromatidis@empa.ch)
 
 **[Robin Mutschler](https://www.empa.ch/web/muro)** — Group leader (Marco-Energy Systems)
 [robin.mutschler@empa.ch](mailto:robin.mutschler@empa.ch)
+
+**[Barton Yi-Chung Chen](https://www.empa.ch/web/chyi)** — Scientist for Energy Systems Modelling
+[yi-chung.chen@empa.ch](mailto:yi-chung.chen@empa.ch)
