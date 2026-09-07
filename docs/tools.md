@@ -40,7 +40,10 @@ Tools where a trained model does the work.
 
 ### DecarbAI Demands
 
-Python · Apache 2.0 · [urban-sympheny](https://github.com/urban-sympheny)
+Python · Apache 2.0 · Developed under the Innosuisse **DecarbAI** project, a UK–Switzerland
+bilateral research collaboration
+ML models and methodology: Hassan Bazazzadeh and Georgios Mavromatidis, Urban Energy Systems
+Laboratory, Empa
 [Repository](https://github.com/urban-sympheny/decarbai-demands)
 
 **AI angle:** Per-city, per-building-type XGBoost ensembles with PCA feature reduction,
