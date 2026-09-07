@@ -15,19 +15,26 @@ Entries are newest-first within each section.
 
 **AI angle:** one line — what kind of AI/ML is used and what it does here.
 
-Optional: two to four sentences on method, what it was used for, and how the AI
-part relates to the energy question. Written for a non-specialist reader.
+<details markdown="1">
+<summary>More</summary>
+
+Two to four sentences on method, what it was used for, and how the AI part
+relates to the energy question. Written for a non-specialist reader.
+
+</details>
 
 Notes:
 - Authors: list the first three, then "et al." (list all if there are three or fewer).
-- Leave the summary paragraph out entirely if you don't have one yet — an entry
-  with just metadata and an AI angle is fine.
+- The <details> block is optional — drop it entirely if you have no summary yet.
+  Keep the blank lines inside it and the markdown="1" attribute, or the text
+  inside will not render properly.
 ==============================================================================
 -->
 
 # Papers
 
 Publications from the lab involving artificial intelligence and machine learning.
+Click **More** under an entry to read what the paper does.
 
 ## Core AI/ML papers
 
@@ -38,16 +45,19 @@ Work where an AI or machine-learning method is central to the contribution.
 **2026** · Shaltout Y., Upadhyay A., Oudalov A. et al. · *Energy and AI*
 [10.1016/j.egyai.2026.100802](https://doi.org/10.1016/j.egyai.2026.100802)
 
-**AI angle:** Machine learning for uncertainty quantification in energy system
-capacity expansion models.
+**AI angle:** Machine learning for uncertainty quantification in energy system capacity
+expansion models.
 
 ### Integrating the expected future in load forecasts with contextually enhanced transformer models
 
 **2026** · Theiler R., Von Krannichfeldt L., Sansavini G. et al. · *Energy Reports*
 [10.1016/j.egyr.2026.109223](https://doi.org/10.1016/j.egyr.2026.109223)
 
-**AI angle:** Transformer models — the architecture behind modern language models —
-adapted to energy load forecasting.
+**AI angle:** Transformer models — the architecture behind modern language models — adapted
+to energy load forecasting.
+
+<details markdown="1">
+<summary>More</summary>
 
 Most forecasting methods look only at historical data, but operators often already know
 something about the future: timetables, scheduled events, planned building occupancy. This
@@ -55,6 +65,8 @@ work reformulates forecasting so that such forward-looking context can be fed to
 transformer model alongside the history. On nationwide railway energy consumption, adding
 timetable data cut the average forecasting error by 26.6%; on building energy using planned
 office occupancy, by 56.3%.
+
+</details>
 
 ### Integrating physics-based and data-driven approaches for probabilistic building energy modeling
 
@@ -64,6 +76,9 @@ office occupancy, by 56.3%.
 **AI angle:** Systematic comparison of five ways to combine physics-based building models
 with neural networks, under uncertainty.
 
+<details markdown="1">
+<summary>More</summary>
+
 Building energy models are traditionally either physics-based or purely learned from data;
 hybrids try to get the strengths of both. This study compares five hybrid strategies for
 predicting building thermodynamics probabilistically — that is, predicting a range rather
@@ -71,6 +86,8 @@ than a single number, so that weather and occupant uncertainty is represented. R
 learning with a feedforward neural network performed best on average, and was the only
 approach that still produced physically sensible predictions on conditions it had not seen
 during training.
+
+</details>
 
 ### SIMBa: system identification methods leveraging backpropagation
 
@@ -80,12 +97,17 @@ during training.
 **AI angle:** Uses backpropagation — the training algorithm behind neural networks — to fit
 classical control models, with stability guaranteed by construction.
 
+<details markdown="1">
+<summary>More</summary>
+
 System identification means building a mathematical model of how a system behaves from
 measured data, which is the first step in designing a controller for it. SIMBa applies
 machine-learning optimisation tooling to this classical problem while mathematically
 guaranteeing the resulting model is stable, and can be told to respect known structure or
 known values in the system. It consistently outperforms traditional subspace identification
 methods, and is released as an open-source toolbox.
+
+</details>
 
 ### Transfer learning for thermal building modeling
 
@@ -95,6 +117,9 @@ methods, and is released as an open-source toolbox.
 **AI angle:** Transfer learning — reusing a model trained on one building to model another
 with far less data.
 
+<details markdown="1">
+<summary>More</summary>
+
 Data-driven building models need a lot of measurements, which new buildings simply do not
 have yet. This study tests several transfer-learning strategies for carrying a model trained
 on one building over to another, using data from the UMAR unit of the NEST building in
@@ -102,14 +127,19 @@ Dübendorf and from multiple US cities. Models adapted this way come close to th
 models trained directly on the target building, and an ensemble of models transferred from
 several sources can beat it outright.
 
+</details>
+
 ### Data-driven incentive mechanisms for federated learning in vehicular networks
 
 **2025** · Fathi F., Montazeri M., Naraabi B. et al. · *IEEE Transactions on Vehicular Technology*
 [10.1109/TVT.2025.3547866](https://doi.org/10.1109/TVT.2025.3547866)
 
-**AI angle:** Federated learning — training a shared model across many vehicles without
-any of them handing over their raw data — plus deep neural networks used to design the
+**AI angle:** Federated learning — training a shared model across many vehicles without any
+of them handing over their raw data — plus deep neural networks used to design the
 participation incentives.
+
+<details markdown="1">
+<summary>More</summary>
 
 Federated learning lets vehicles collaboratively train a model while keeping their data
 local, which protects privacy but means participants must be given a reason to spend their
@@ -117,6 +147,8 @@ computing resources. This work designs a contract between roadside units and veh
 rewards them according to the quality of the data they contribute, and is the first to use
 deep neural networks to compute near-optimal such contracts. A traffic sign recognition case
 study demonstrates the approach.
+
+</details>
 
 ### Price-responsive control using deep reinforcement learning for heating systems: simulation and living lab experiment
 
@@ -203,13 +235,99 @@ with guarantees on the result.
 **AI angle:** Bayesian optimisation driven by preference comparisons rather than numeric
 measurements — useful where "better" can be judged but not measured.
 
+### Towards scalable physically consistent neural networks: an application to data-driven multi-zone thermal building models
+
+**2023** · Di Natale L., Svetozarevic B., Heer P. et al. · *Applied Energy*
+[10.1016/j.apenergy.2023.121071](https://doi.org/10.1016/j.apenergy.2023.121071)
+
+**AI angle:** Physically Consistent Neural Networks (PCNNs) — neural networks whose structure
+mathematically guarantees they obey physical laws, rather than merely fitting the data.
+
+<details markdown="1">
+<summary>More</summary>
+
+An ordinary neural network can predict building temperatures accurately while remaining
+entirely ignorant of physics, which makes it capable of confidently producing impossible
+answers in situations it was not trained on — a real risk when the predictions drive
+decisions about a physical building. PCNNs constrain the architecture so physical consistency
+is guaranteed by construction, and this work scales them to multi-zone building temperature
+dynamics. They reach state-of-the-art accuracy — even beating unconstrained neural networks —
+and improve on other physically consistent methods by 17–35%.
+
+</details>
+
+### Physically consistent neural ODEs for learning multi-physics systems
+
+**2023** · Zakwan M., Di Natale L., Svetozarevic B. et al. · *22nd IFAC World Congress*
+[10.1016/j.ifacol.2023.10.079](https://doi.org/10.1016/j.ifacol.2023.10.079)
+
+**AI angle:** Neural ODEs constrained by port-Hamiltonian structure so that learned models
+cannot violate the laws of thermodynamics.
+
+<details markdown="1">
+<summary>More</summary>
+
+Neural networks that learn system dynamics from data are usually physics-agnostic, so their
+predictions can drift into physically impossible territory. This work embeds the learning
+inside an irreversible port-Hamiltonian formulation, so the parameters are learned from data
+while thermodynamic consistency holds by construction. It is demonstrated on building
+thermodynamics and on a gas-piston system.
+
+</details>
+
 ### Computationally efficient reinforcement learning: targeted exploration leveraging simple rules
 
 **2023** · Di Natale L., Svetozarevic B., Heer P. et al. · *IEEE Conference on Decision and Control (CDC 2023)*
-[10.1109/CDC49753.2023.10384283](https://doi.org/10.1109/CDC49753.2023.10384283)
+[10.1109/CDC49753.2023.10383956](https://doi.org/10.1109/CDC49753.2023.10383956)
 
 **AI angle:** Makes reinforcement learning cheaper to train by using simple known rules to
 steer where the algorithm explores.
+
+### Primal-dual contextual Bayesian optimization for control system online optimization with time-average constraints
+
+**2023** · Xu W., Jiang Y., Svetozarevic B. et al. · *IEEE Conference on Decision and Control (CDC 2023)*
+[10.1109/CDC49753.2023.10383653](https://doi.org/10.1109/CDC49753.2023.10383653)
+
+**AI angle:** Bayesian optimisation that tunes a running control system online when both the
+goal and the constraints are unknown functions disturbed by outside conditions.
+
+<details markdown="1">
+<summary>More</summary>
+
+Tuning a controller while it runs means searching for better settings without a model of how
+those settings affect performance or whether they will breach safety limits. This algorithm
+provably converges towards the moving optimum while keeping the *average* constraint
+violation at zero, and is demonstrated on a chemical reactor tuning problem — where competing
+methods either perform poorly or breach constraints badly.
+
+</details>
+
+### Constrained efficient global optimization of expensive black-box functions
+
+**2023** · Xu W., Jiang Y., Svetozarevic B. et al. · *International Conference on Machine Learning (ICML 2023), PMLR 202*
+
+**AI angle:** Optimising expensive-to-evaluate functions under constraints, where each trial
+costs real time or money so the number of trials must be kept small.
+
+### Regularised learning with selected physics for power system dynamics
+
+**2023** · Xie H., Bellizio F., Cremer J. L. et al. · *IEEE Belgrade PowerTech 2023*
+[10.1109/PowerTech55446.2023.10202688](https://doi.org/10.1109/PowerTech55446.2023.10202688)
+
+**AI angle:** Selected Physics Informed Neural Networks (SPINNs) — a step beyond standard
+physics-informed networks, feeding only chosen parts of the physical model into training.
+
+<details markdown="1">
+<summary>More</summary>
+
+Checking whether a power system will stay stable under changing operating conditions is
+computationally expensive, so machine learning is often used to speed it up — but purely
+learned models throw away everything already known about the system's physics. SPINNs use a
+two-level network, one predicting generator rotor angles and one adapting to varying
+operating conditions. On an IEEE 9-bus test system this cut the training data required, and
+the model successfully extrapolated to timescales longer than anything in its training set.
+
+</details>
 
 ## Data-driven and AI-adjacent papers
 

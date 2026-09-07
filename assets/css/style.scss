@@ -110,13 +110,39 @@ main.wrap {
   min-width: 0;
 }
 .docs-content h3 {
-  margin-top: 2.5rem;
-  padding-top: 2rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1.75rem;
   border-top: 1px solid var(--border);
+  font-size: 1.1rem;
+  line-height: 1.4;
 }
 .docs-content h3 + p {
   color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.75rem;
+}
+.docs-content details {
+  margin: 0.75rem 0 0;
   font-size: 0.95rem;
+}
+.docs-content summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: fit-content;
+}
+.docs-content summary:hover {
+  text-decoration: underline;
+}
+.docs-content details[open] summary {
+  margin-bottom: 0.5rem;
+}
+.docs-content details p {
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
 }
 
 code, pre {
