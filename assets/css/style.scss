@@ -296,12 +296,8 @@ code {
   list-style: none;
 }
 .contact-list li {
-  padding: 0.9rem 0;
-  border-top: 1px solid var(--border);
+  padding: 0.5rem 0;
   line-height: 1.7;
-}
-.contact-list li:last-child {
-  border-bottom: 1px solid var(--border);
 }
 .contact-list a:first-child {
   font-weight: 600;
