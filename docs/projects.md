@@ -95,6 +95,29 @@ into linked, machine-readable datasets suitable for knowledge graphs.
 Larger, multi-partner projects where UESL contributes specific AI expertise, data, or a
 demonstrator site rather than leading the whole effort.
 
+### DecarbAI Demands
+
+Developed under the Innosuisse **DecarbAI** project, a UK–Switzerland bilateral research
+collaboration · Python · Apache 2.0
+ML models and methodology: Hassan Bazazzadeh and Georgios Mavromatidis, Urban Energy Systems
+Laboratory, Empa
+[Repository](https://github.com/urban-sympheny/decarbai-demands)
+
+**AI method:** Per-city, per-building-type XGBoost ensembles with PCA feature reduction,
+replacing a full building simulation with a model that answers immediately.
+
+<details markdown="1">
+<summary>More</summary>
+
+Producing an hourly energy demand profile for a building normally means setting up and running
+a simulation. DecarbAI Demands predicts the full year — all 8760 hours of heating, cooling,
+electricity, and domestic hot water demand — for Swiss buildings directly from 17 building
+characteristics such as dimensions, construction year, window-to-wall ratios, and insulation
+values. It runs as an interactive Dash dashboard. Predictions are most reliable when the inputs
+fall inside the ranges the models were trained on.
+
+</details>
+
 ### ENERGENIUS
 
 Horizon Europe · 17 partners across 10 demonstrator sites in Europe · Empa contributes the
@@ -138,28 +161,5 @@ heat reaches up to 70°C and is fed directly into NEST's high-temperature networ
 contribution is ehubX-based techno-economic assessment of data-centre integration strategies
 and CFD-validated thermal simulation, which informed retrofitting strategies enabling energy
 efficiency improvements of up to 75% in the facilities studied.
-
-</details>
-
-### DecarbAI Demands
-
-Developed under the Innosuisse **DecarbAI** project, a UK–Switzerland bilateral research
-collaboration · Python · Apache 2.0
-ML models and methodology: Hassan Bazazzadeh and Georgios Mavromatidis, Urban Energy Systems
-Laboratory, Empa
-[Repository](https://github.com/urban-sympheny/decarbai-demands)
-
-**AI method:** Per-city, per-building-type XGBoost ensembles with PCA feature reduction,
-replacing a full building simulation with a model that answers immediately.
-
-<details markdown="1">
-<summary>More</summary>
-
-Producing an hourly energy demand profile for a building normally means setting up and running
-a simulation. DecarbAI Demands predicts the full year — all 8760 hours of heating, cooling,
-electricity, and domestic hot water demand — for Swiss buildings directly from 17 building
-characteristics such as dimensions, construction year, window-to-wall ratios, and insulation
-values. It runs as an interactive Dash dashboard. Predictions are most reliable when the inputs
-fall inside the ranges the models were trained on.
 
 </details>
