@@ -58,7 +58,7 @@ one for the example heading inside each file's template comment.
     </a>
     <a class="stat" href="{{ '/docs/projects/' | relative_url }}">
       <span class="stat-number">{{ project_count }}+</span>
-      <span class="stat-label">AI projects and platforms</span>
+      <span class="stat-label">AI related projects and platforms</span>
     </a>
   </div>
 
