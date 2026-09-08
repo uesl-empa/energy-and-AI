@@ -17,8 +17,9 @@ one for the example heading inside each file's template comment.
   <h1>AI &amp; Urban Energy Systems</h1>
   <p class="hero-subtitle">
     The <a href="https://www.empa.ch/web/s313">Urban Energy Systems Laboratory (UESL)</a> at
-    <a href="https://www.empa.ch">Empa</a> researches how energy systems can be designed,
-    operated and transformed towards a sustainable energy future.
+    <a href="https://www.empa.ch">Empa</a> (Swiss Federal Laboratories for Materials Science
+    and Technology), an ETH Domain research institute, researches how energy systems can be
+    designed, operated and transformed towards a sustainable energy future.
   </p>
   <p class="hero-subtitle">
     AI and data-driven methods are increasingly part of this research, alongside
