@@ -30,7 +30,8 @@ one for the example heading inside each file's template comment.
   <h2>AI in our energy-system research</h2>
   <p class="lede">
     AI is becoming an increasingly useful tool in energy-system research. At UESL, we apply
-    AI and machine-learning methods to problems in buildings, districts and energy systems,
+    AI and machine-learning methods to problems in
+    <a href="{{ '/docs/domain/' | relative_url }}">buildings, districts and energy systems</a>,
     combining them with our expertise in energy-system modelling, physics, optimisation and
     control.
   </p>
@@ -94,16 +95,14 @@ one for the example heading inside each file's template comment.
     Interested in exploring AI applications for energy systems or a potential research
     collaboration?
   </p>
-  <div class="contact-grid">
-    <div class="contact-card">
-      <h3><a href="https://www.empa.ch/web/mag">Georgios Mavromatidis</a></h3>
-      <p>Head of Laboratory</p>
+  <ul class="contact-list">
+    <li>
+      <a href="https://www.empa.ch/web/mag">Georgios Mavromatidis</a> — Head of Laboratory —
       <a href="mailto:georgios.mavromatidis@empa.ch">georgios.mavromatidis@empa.ch</a>
-    </div>
-    <div class="contact-card">
-      <h3><a href="https://www.empa.ch/web/muro">Robin Mutschler</a></h3>
-      <p>Leader of Marco-Energy Systems Group</p>
-      <a href="mailto:robin.mutschler@empa.ch">robin.mutschler@empa.ch</a>
-    </div>
-  </div>
+    </li>
+    <li>
+      <a href="https://www.empa.ch/web/muro">Robin Mutschler</a> — Leader of Marco-Energy
+      Systems Group — <a href="mailto:robin.mutschler@empa.ch">robin.mutschler@empa.ch</a>
+    </li>
+  </ul>
 </section>
