@@ -118,6 +118,29 @@ consumption.
 
 </details>
 
+### HEATWISE
+
+Horizon Europe · around a dozen European partners, coordinated by H1 Systems (Hungary) ·
+Empa's NEST hosts a 20 kW edge data centre demonstrator pilot
+[Project site](https://heatwise.eu/)
+
+**Method:** Uses [ehubX](https://github.com/uesl-empa/ehubx), Empa's own energy-system
+optimisation platform, to assess strategies for integrating edge data centres into tertiary
+buildings, alongside CFD-based thermal simulation of the hybrid cooling system.
+
+<details markdown="1">
+<summary>More</summary>
+
+HEATWISE recovers waste heat from IT infrastructure and feeds it back into building heating
+networks. Empa's NEST hosts a 20 kW edge data centre with hybrid liquid and air cooling,
+supplemented by an on-chip liquid cooling system from project partner ZutaCore; the recovered
+heat reaches up to 70°C and is fed directly into NEST's high-temperature network. UESL's
+contribution is ehubX-based techno-economic assessment of data-centre integration strategies
+and CFD-validated thermal simulation, which informed retrofitting strategies enabling energy
+efficiency improvements of up to 75% in the facilities studied.
+
+</details>
+
 ### DecarbAI Demands
 
 Developed under the Innosuisse **DecarbAI** project, a UK–Switzerland bilateral research
