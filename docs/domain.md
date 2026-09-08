@@ -46,25 +46,8 @@ NEST also serves as a Leader Pilot in
 [ENERGENIUS]({{ '/docs/projects/' | relative_url }}), the site that trials the most advanced
 tooling before it is adapted for wider deployment.
 
-## Who we work with
-
-**Federal and national.** The Swiss Federal Office of Energy (SFOE) and Innosuisse fund work
-represented on this site, including [Digicities]({{ '/docs/projects/' | relative_url }}) and the
-DecarbAI project behind [DecarbAI Demands]({{ '/docs/projects/' | relative_url }}).
-
-**Cities, cantons, and utilities.** Municipal and utility energy planning is the setting these
-tools are built for — CESAR-P and ehubX exist to answer questions about a specific district,
-city, or supply area, and Digicities is explicitly about the data barriers those organisations
-run into.
-
-**Academic partners.** MOTEL is built with the **ETH Energy Science Center**, supported by the
-ETH Board's Open Research Data Program. Much of the control and optimisation work on this site
-is joint with academic groups in Switzerland and abroad.
-
-**International.** ENERGENIUS runs under **Horizon Europe** across 17 partners and 10
-demonstrator sites. Digicities runs under **ERA-Net Smart Energy Systems** with funding from
-SFOE, the Austrian Research Promotion Agency (FFG), and the EU Horizon 2020 programme. DecarbAI
-is a **UK–Switzerland** bilateral collaboration.
+If you want to know more about what we do, please visit the
+[UESL homepage](https://www.empa.ch/web/s313).
 
 ## Where AI enters
 
