@@ -34,9 +34,6 @@ Energy Storage feasibility.
 **[NESTli](https://github.com/uesl-empa/nestli)** — Benchmarking building automation and control
 systems.
 
-**[Dynamic carbon factor tool](https://github.com/uesl-empa/dynamic-carbon-factor-tool)** —
-Time-resolved carbon intensity of the Swiss electricity grid.
-
 ## Testing on real buildings
 
 Methods developed here are validated on occupied buildings rather than only in simulation. The
