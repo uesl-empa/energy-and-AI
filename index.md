@@ -48,14 +48,14 @@ one for the example heading inside each file's template comment.
   </p>
 
   <div class="stats-row">
-    <div class="stat">
+    <a class="stat" href="{{ '/docs/papers/' | relative_url }}">
       <span class="stat-number">{{ paper_count }}+</span>
       <span class="stat-label">AI publications since 2023</span>
-    </div>
-    <div class="stat">
+    </a>
+    <a class="stat" href="{{ '/docs/projects/' | relative_url }}">
       <span class="stat-number">{{ project_count }}+</span>
       <span class="stat-label">AI projects and platforms</span>
-    </div>
+    </a>
   </div>
 
   <p class="section-lead">Research areas</p>

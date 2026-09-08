@@ -256,6 +256,11 @@ code {
 .stat {
   display: flex;
   flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+.stat:hover .stat-label {
+  text-decoration: underline;
 }
 .stat-number {
   font-size: 2.5rem;
