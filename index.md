@@ -14,78 +14,38 @@ one for the example heading inside each file's template comment.
 {%- assign project_count = projects_page.content | split: '### ' | size | minus: 2 -%}
 
 <section class="hero">
-  <h1>AI for Real-World Energy Systems</h1>
+  <h1>AI &amp; Urban Energy Systems</h1>
   <p class="hero-subtitle">
-    We combine artificial intelligence with energy-system engineering, physics and real-world
-    data to develop smarter ways to design, operate and optimise buildings, districts and
-    energy systems.
+    The Urban Energy Systems Laboratory (UESL) at Empa researches how energy systems can be
+    designed, operated and transformed towards a sustainable energy future.
   </p>
-  <div class="cta-row">
-    <a class="btn btn-primary" href="#collaboration">Work with us</a>
-    <a class="btn btn-secondary" href="{{ '/docs/papers/' | relative_url }}">Explore our research</a>
-  </div>
+  <p class="hero-subtitle">
+    AI and data-driven methods are increasingly part of this research, alongside
+    energy-system modelling, optimisation, control and engineering.
+  </p>
 </section>
 
 <section class="section">
-  <h2>What we do</h2>
-  <div class="card-grid">
-    <div class="card">
-      <h3>Forecasting</h3>
-      <p>Energy demand, renewable generation and system behaviour.</p>
-    </div>
-    <div class="card">
-      <h3>Physics + AI</h3>
-      <p>Combining machine learning with physical knowledge and engineering constraints.</p>
-    </div>
-    <div class="card">
-      <h3>AI-based control</h3>
-      <p>Intelligent operation and optimisation of buildings and energy systems.</p>
-    </div>
-    <div class="card">
-      <h3>Optimisation</h3>
-      <p>AI and optimisation for complex design and operational problems.</p>
-    </div>
-    <div class="card">
-      <h3>Data-driven modelling</h3>
-      <p>System identification, surrogate models and digital representations.</p>
-    </div>
-    <div class="card">
-      <h3>Energy-system applications</h3>
-      <p>Buildings, districts, grids and other urban energy systems.</p>
-    </div>
-  </div>
+  <h2>AI in our energy-system research</h2>
+  <p class="lede">
+    AI is becoming an increasingly useful tool in energy-system research. At UESL, we apply
+    AI and machine-learning methods to problems in buildings, districts and energy systems,
+    combining them with our expertise in energy-system modelling, physics, optimisation and
+    control.
+  </p>
+  <p class="lede">
+    Our focus is not on developing AI methods for their own sake, but on investigating how AI
+    can be applied to relevant energy-system challenges.
+  </p>
 </section>
 
 <section class="section">
-  <h2>Why work with UESL</h2>
-  <div class="why-grid">
-    <div class="why-item">
-      <h3>Energy expertise</h3>
-      <p>Deep knowledge of buildings, energy systems, grids and urban infrastructure.</p>
-    </div>
-    <div class="why-item">
-      <h3>AI expertise</h3>
-      <p>Experience with machine learning, optimisation, reinforcement learning,
-        physics-informed AI and data-driven modelling.</p>
-    </div>
-    <div class="why-item">
-      <h3>Real-world application</h3>
-      <p>Research based on real energy data, physical systems and practical energy
-        challenges.</p>
-    </div>
-    <div class="why-item">
-      <h3>Research depth</h3>
-      <p>A growing body of peer-reviewed research, projects and open-source tools.</p>
-    </div>
-  </div>
-  <blockquote class="callout">
-    We don't simply apply generic AI to energy problems. We combine AI with deep
-    energy-system and engineering expertise.
-  </blockquote>
-</section>
+  <h2>Evidence of our research</h2>
+  <p class="lede">
+    Our work spans forecasting, physics-informed and hybrid modelling, learning-based control,
+    optimisation and other applications of AI in energy systems.
+  </p>
 
-<section class="section">
-  <h2>Evidence</h2>
   <div class="stats-row">
     <div class="stat">
       <span class="stat-number">{{ paper_count }}+</span>
@@ -93,46 +53,46 @@ one for the example heading inside each file's template comment.
     </div>
     <div class="stat">
       <span class="stat-number">{{ project_count }}+</span>
-      <span class="stat-label">AI projects &amp; platforms</span>
+      <span class="stat-label">AI projects and platforms</span>
     </div>
   </div>
-  <p class="stats-caption">Research across forecasting, modelling, control and optimisation.</p>
 
-  <p class="section-lead">Selected research</p>
-  <div class="research-links">
-    <a href="{{ '/docs/papers/' | relative_url }}#forecasting-and-prediction">Forecasting</a>
-    <a href="{{ '/docs/papers/' | relative_url }}#physics-consistent-and-hybrid-modelling">Physics-informed AI</a>
-    <a href="{{ '/docs/papers/' | relative_url }}#learning-based-control">AI-based control</a>
-  </div>
+  <p class="section-lead">Research areas</p>
+  <ul class="list-columns">
+    <li><a href="{{ '/docs/papers/' | relative_url }}#forecasting-and-prediction">Forecasting and prediction</a></li>
+    <li><a href="{{ '/docs/papers/' | relative_url }}#physics-consistent-and-hybrid-modelling">Physics-consistent and hybrid modelling</a></li>
+    <li><a href="{{ '/docs/papers/' | relative_url }}#learning-based-control">Learning-based control</a></li>
+    <li><a href="{{ '/docs/papers/' | relative_url }}#optimisation-and-controller-tuning">Optimisation and controller tuning</a></li>
+    <li><a href="{{ '/docs/papers/' | relative_url }}#system-identification-planning-and-grid-applications">System identification, planning and grid applications</a></li>
+  </ul>
+
   <a class="text-link" href="{{ '/docs/papers/' | relative_url }}">See all research &rarr;</a>
 </section>
 
 <section class="section" id="collaboration">
-  <h2>Work with us</h2>
-  <p>
-    We collaborate with industry, utilities, cities, technology companies and research
-    organisations through:
+  <h2>Collaboration</h2>
+  <p class="lede">
+    We are interested in collaborating with researchers, technology groups and organisations
+    with strong expertise in AI and machine learning who are interested in applying these
+    methods to energy-system challenges. Potential areas include buildings, urban energy
+    systems, energy networks, forecasting, control, optimisation and energy-system modelling.
   </p>
-  <ul class="collab-list">
+  <ul class="list-columns">
     <li>Joint research</li>
-    <li>Applied AI projects</li>
-    <li>Pilot and demonstration projects</li>
-    <li>Joint funding proposals</li>
-    <li>Data and technology partnerships</li>
+    <li>New applications of AI in energy systems</li>
+    <li>Joint research proposals</li>
+    <li>Applied research</li>
+    <li>Experimental and demonstrator projects</li>
+    <li>Collaboration with AI specialists</li>
   </ul>
-</section>
-
-<section class="closing-cta">
-  <h2>Have an energy challenge where AI could help?</h2>
-  <p>
-    We are interested in collaborating on AI applications for buildings, districts and
-    energy systems.
-  </p>
-  <a class="btn btn-primary" href="#contact">Get in touch</a>
 </section>
 
 <section class="section" id="contact">
   <h2>Contact</h2>
+  <p class="lede">
+    Interested in exploring AI applications for energy systems or a potential research
+    collaboration?
+  </p>
   <div class="contact-grid">
     <div class="contact-card">
       <h3><a href="https://www.empa.ch/web/mag">Georgios Mavromatidis</a></h3>
